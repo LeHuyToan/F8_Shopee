@@ -78,6 +78,10 @@
     width: unset;
   }
 
+  .header__search-checkbox:checked ~ .header__overlay {
+    display: block;
+  }
+
   .header__search-checkbox:checked ~ .header__search {
     display: flex;
   }

@@ -508,6 +508,18 @@
   color: var(--white-color);
 }
 
+.header__overlay {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  animation: fadeIn linear 0.2s;
+}
+
 .header__search {
   height: 40px;
   background-color: var(--white-color);
